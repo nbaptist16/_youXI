@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x3a2ce0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x3a2ce0" />
+  <item nodeId="node-0x3a2ce0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+ you are a knight in training at the prestigious Hyrule Academy. It&apos;s a good thing you woke up early today, because you need to get to training...but first you need to find your equipment.
+
+youXI
+An Interactive Fiction by Nicole Baptist
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+your room
+a simple room with wooden flooring, and grey-white walls with an emerald trim: your academy&apos;s colors. The only pieces of furniture are your bed, your closet, your desk, a trunk, and a chair. the exit is to the south.
+
+You can see your bed and a trunk (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="10">NO</temporary>
+    <children>
+      <child nodeId="node-0x3a2d30" />
+      <child nodeId="node-0x739c520" />
+      <child nodeId="node-0x7362b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7362b80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+hallway
+a simple hallway with maps and posters along the wall. to the north is your room, north east is Pipit&apos;s room, east leads further into the academy, west leads outside, south west is to the bathroom, and south leads to the kitchen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x92688e0" />
+      <child nodeId="node-0x735f3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x735f3b0">
+    <command xml:space="preserve">x posters</command>
+    <result xml:space="preserve">the posters show different combat moves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c7c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c7c60">
+    <command xml:space="preserve">take posters</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x92688e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Pipit&apos;s room
+Pipit&apos;s room is a little more lively, as he has added more posters to the walls, has placed figurines on his desk, and has a beanbag in the cornner.
+
+You can see Pipit&apos;s bed here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x479b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x479b20">
+    <command xml:space="preserve">enter pipits bed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x2867d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2867d0">
+    <command xml:space="preserve">enter pipit&apos;s bed</command>
+    <result xml:space="preserve">DUDE. CAN&apos;T YOU SEE HE&apos;S STILL SLEEPING?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x739c520">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">a nice, comfortable bed to relax in after a day full of knight training.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x31df60" />
+    </children>
+  </item>
+  <item nodeId="node-0x31df60">
+    <command xml:space="preserve">enter bed</command>
+    <result xml:space="preserve">You get onto your bed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x3a2d30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">your room
+a simple room with wooden flooring, and grey-white walls with an emerald trim: your academy&apos;s colors.
+
+You can see your bed here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x3a2d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x3a2d80">
+    <command xml:space="preserve">enter bed</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>
