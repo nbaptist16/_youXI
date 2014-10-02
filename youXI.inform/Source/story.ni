@@ -22,11 +22,13 @@ the trunk is a thing in your room. it is fixed in place. the trunk is a containe
 
 the hallway is south of your room. the description is "a simple hallway with maps and posters along the wall. to the north is your room, north east is Pipit's room, east leads further into the academy, west leads outside, south west is to the bathroom, and south leads to the kitchen."
 
-the maps are a thing in the hallway. the description is "maps of your home floating island, Skyloft."
+maps are a thing in the hallway. the description is "maps of your home floating island, Skyloft."
 
-the posters are a thing in the hallway. the description is "the posters show different combat moves."
+posters are a thing in the hallway. the description is "the posters show different combat moves."
 
 Pipit's room is northeast of the hallway. the description is "Pipit's room is a little more lively, as he has added more posters to the walls, has placed figurines on his desk, and has a beanbag in the cornner."
+
+[when player enters Pipit's room: say "you're almost positive Pipit had something to do with this, but you realize that even if you do wake him up, there's no way he's gonna help you find your stuff. Instead you decide to leave him be."]
 
 Pipit's bed is an enterable supporter in Pipit's room. it is fixed in place. the description is "Pipit is still sleeping. Fortunately for him, his equipment isn't missing."
 
@@ -46,8 +48,32 @@ Pipit's desk is scenery in pipit's room. the description is "there are more WIP 
 
 understand "desk" as Pipit's desk.
 
-Outdoors is west of the hallway.
+outdoors is west of the hallway.
 
-The bathroom is southwest of the hallway.
+the bathroom is southwest of the hallway. the description is "a rather spacious room with  a toilet, a sink, and a large tub."
+
+the toilet is scenery in the bathroom. the description is "a simple toilet."
+
+the sink is scenery in the bathroom. the description is "a nice, clean sink."
+
+the tub is scenery in the bathroom. it is fixed in place. the description is "made from a natural hotspring, the tub is always full of warm water. looking closely, though, you see something at the bottom...it looks like you can reach it."
+
+understand "reach inside [something]" as reaching. reaching is an action applying to one thing.
+
+instead of reaching tub: say "you reach your hand inside the tub, and find your shield!."; now the player carries your shield.
+
+[HAHA. FINALLY.]
+
+your shield is a thing. it is wearable. the description is "a shiny, stainless steel shield with a few scratches from sparring matches against your particularly talented classmates. it has the academy crest engraved on it. attached to the back is what looks like a potion container."
+
+the potion container is a container. it is openable and closed. the description is "inside you see a small note."
+
+understand "container" as the potion container.
+
+the second clue is a thing in the potion container. the description is "the second riddle reads, 
+ah, so you've found your shield...
+but you also need a weapon to wield.
+for training you need no papers or pencils...
+instead, try looking by the utensils?"
 
 The kitchen is south of the hallway.

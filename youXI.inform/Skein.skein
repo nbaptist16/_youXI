@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x3a2ce0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3a0f50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x3a2ce0" />
-  <item nodeId="node-0x3a2ce0">
+  <activeNode nodeId="node-0x3a0f50" />
+  <item nodeId="node-0x3a0f50">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,29 +21,141 @@ You can see your bed and a trunk (empty) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="10">NO</temporary>
+    <temporary score="42">NO</temporary>
     <children>
-      <child nodeId="node-0x3a2d30" />
-      <child nodeId="node-0x739c520" />
-      <child nodeId="node-0x7362b80" />
+      <child nodeId="node-0x3b6330" />
+      <child nodeId="node-0x39edb0" />
+      <child nodeId="node-0x2bda40" />
+      <child nodeId="node-0x3b6290" />
     </children>
   </item>
-  <item nodeId="node-0x7362b80">
+  <item nodeId="node-0x3b6290">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">a nice, comfortable bed to relax in after a day full of knight training.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x3b62e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3b62e0">
+    <command xml:space="preserve">enter bed</command>
+    <result xml:space="preserve">You get onto your bed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x2bda40">
+    <command xml:space="preserve">S</command>
+    <result xml:space="preserve">
+hallway
+a simple hallway with maps and posters along the wall. to the north is your room, north east is Pipit&apos;s room, east leads further into the academy, west leads outside, south west is to the bathroom, and south leads to the kitchen.
+
+You can see maps and posters here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0xc551860" />
+    </children>
+  </item>
+  <item nodeId="node-0xc551860">
+    <command xml:space="preserve">SW</command>
+    <result xml:space="preserve">
+bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0xc582bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc582bb0">
+    <command xml:space="preserve">x tub</command>
+    <result xml:space="preserve">made from a natural hotspring, the tub is always full of warm water. looking closely, though, you see something at the bottom...it looks like you can reach it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x784f550" />
+    </children>
+  </item>
+  <item nodeId="node-0x784f550">
+    <command xml:space="preserve">reach inside tub</command>
+    <result xml:space="preserve">you reach your empty hand inside the tub, and find your shield!.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x8964a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x8964a90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  your shield
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x89c2380" />
+    </children>
+  </item>
+  <item nodeId="node-0x89c2380">
+    <command xml:space="preserve">x shield</command>
+    <result xml:space="preserve">a shiny, stainless steel shield with a few scratches from sparring matches against your particularly talented classmates.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x8929e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x8929e30">
+    <command xml:space="preserve">wear shield</command>
+    <result xml:space="preserve">You put on your shield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+  </item>
+  <item nodeId="node-0x39edb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 hallway
 a simple hallway with maps and posters along the wall. to the north is your room, north east is Pipit&apos;s room, east leads further into the academy, west leads outside, south west is to the bathroom, and south leads to the kitchen.
 
+You can see maps and posters here.
+
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x92688e0" />
-      <child nodeId="node-0x735f3b0" />
+      <child nodeId="node-0x511800" />
+      <child nodeId="node-0x39eea0" />
+      <child nodeId="node-0x39ee00" />
     </children>
   </item>
-  <item nodeId="node-0x735f3b0">
+  <item nodeId="node-0x39ee00">
     <command xml:space="preserve">x posters</command>
     <result xml:space="preserve">the posters show different combat moves.
 
@@ -52,10 +164,10 @@ a simple hallway with maps and posters along the wall. to the north is your room
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x1c7c60" />
+      <child nodeId="node-0x39ee50" />
     </children>
   </item>
-  <item nodeId="node-0x1c7c60">
+  <item nodeId="node-0x39ee50">
     <command xml:space="preserve">take posters</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -64,7 +176,7 @@ a simple hallway with maps and posters along the wall. to the north is your room
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x92688e0">
+  <item nodeId="node-0x39eea0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Pipit&apos;s room
@@ -77,10 +189,10 @@ You can see Pipit&apos;s bed here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x479b20" />
+      <child nodeId="node-0x39eef0" />
     </children>
   </item>
-  <item nodeId="node-0x479b20">
+  <item nodeId="node-0x39eef0">
     <command xml:space="preserve">enter pipits bed</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -89,10 +201,10 @@ You can see Pipit&apos;s bed here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x2867d0" />
+      <child nodeId="node-0x39ef60" />
     </children>
   </item>
-  <item nodeId="node-0x2867d0">
+  <item nodeId="node-0x39ef60">
     <command xml:space="preserve">enter pipit&apos;s bed</command>
     <result xml:space="preserve">DUDE. CAN&apos;T YOU SEE HE&apos;S STILL SLEEPING?
 
@@ -101,28 +213,108 @@ You can see Pipit&apos;s bed here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x739c520">
-    <command xml:space="preserve">x bed</command>
-    <result xml:space="preserve">a nice, comfortable bed to relax in after a day full of knight training.
+  <item nodeId="node-0x511800">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x7889270" />
+      <child nodeId="node-0x7863be0" />
+      <child nodeId="node-0xc53ef20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc53ef20">
+    <command xml:space="preserve">x tub</command>
+    <result xml:space="preserve">made from a natural hotspring, the tub is always full of warm water. looking closely, though, you see something at the bottom...it looks like you can reach it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x89cc080" />
+      <child nodeId="node-0x5c3ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5c3ad0">
+    <command xml:space="preserve">reach in tub</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+  </item>
+  <item nodeId="node-0x89cc080">
+    <command xml:space="preserve">reach inside tub</command>
+    <result xml:space="preserve">you reach your empty hand inside the tub, and find your shield!.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc585e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc585e40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  your shield
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0x7863be0">
+    <command xml:space="preserve">enter tub</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x7887a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7887a10">
+    <command xml:space="preserve">x shield</command>
+    <result xml:space="preserve">You see nothing special about your shield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x789c7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x789c7e0">
+    <command xml:space="preserve">take shield</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0x7889270">
+    <command xml:space="preserve">take tub</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
-    <children>
-      <child nodeId="node-0x31df60" />
-    </children>
   </item>
-  <item nodeId="node-0x31df60">
-    <command xml:space="preserve">enter bed</command>
-    <result xml:space="preserve">You get onto your bed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x3a2d30">
+  <item nodeId="node-0x3b6330">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">your room
 a simple room with wooden flooring, and grey-white walls with an emerald trim: your academy&apos;s colors.
@@ -134,10 +326,10 @@ You can see your bed here.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x3a2d80" />
+      <child nodeId="node-0x3b63a0" />
     </children>
   </item>
-  <item nodeId="node-0x3a2d80">
+  <item nodeId="node-0x3b63a0">
     <command xml:space="preserve">enter bed</command>
     <played>YES</played>
     <changed>YES</changed>
