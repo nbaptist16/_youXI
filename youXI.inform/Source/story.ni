@@ -2,6 +2,8 @@
 
 [Well, my first attempt at this game didn't work out very well...also, it seemed a little to similar to my house...and even though I haven't played in a while, the memory of zelda games are in my mind...so I thought I'd just change the whole thing...probably gonna be more fun this way.]
 
+[NOTE: WORK ON SCOREEE]
+
 when play begins: say " you are a knight in training at the prestigious Hyrule Academy. It's a good thing you woke up early today, because you need to get to training...but first you need to find your equipment."
 
 your room is a room. the description is "a simple room with wooden flooring, and grey-white walls with an emerald trim: your academy's colors. The only pieces of furniture are your bed, your closet, your desk, a trunk, and a chair. the exit is to the south."
@@ -34,7 +36,7 @@ Pipit's bed is an enterable supporter in Pipit's room. it is fixed in place. the
 
 understand "bed" as Pipit's bed.
 
-after entering pipit's bed: say "DUDE. CAN'T YOU SEE HE'S STILL SLEEPING HERE?"
+after entering pipit's bed: say "DUDE. HE'S STILL SLEEPING HERE."
 
 Pipit's posters are a thing in Pipit's room. they are fixed in place. the description is "his posters aren't actually posters...they're drawings he's made. (and very nice ones at that.)"
 
@@ -89,4 +91,14 @@ outdoors is west of the hallway. the description is "a nice, large grassy field.
 
 Horwell is a man in outdoors. the description is "Horwell is a tall, muscular figure carved into what he is today from years of training academy students." 
 
-[Instead of showing your sword and your shield to Horwell: say "excellent! now we can start training." end the game finally.]
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with
+[someone]” as talking to.
+
+instead of talking to Horwell: say "you'll need your shield and sword in order to participate in training today. can you show them to me?"
+
+instead of showing shield to Horwell: say "good. now, do you have your sword?"
+
+instead of showing sword to Horwell: end the story saying "excellent! now we can start today's training. YOU WIN."
+	
+[HOW TO SOLVE THE GAME:]
