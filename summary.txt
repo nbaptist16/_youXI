@@ -1,0 +1,3 @@
+//summary
+
+An interactive fiction story starring you! You play the role of a ambitious knight-in-training at Hyrule Academy. Your first task is to find your equipment for today’s training, as your mischievous friends have apparently hid them somewhere…once you find your equipment, though, you might find yourself facing one of the toughest opponents you know.
