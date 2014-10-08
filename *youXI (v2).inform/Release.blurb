@@ -1,0 +1,37 @@
+! Blurb file created by Inform build 6L38
+
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).inform"
+
+! Blorb instructions
+
+storyfile leafname "youXI.gblorb"
+storyfile "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).inform/Build/output.ulx" include
+ifiction "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).inform/Metadata.iFiction" include
+cover "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).materials/Cover.png"
+picture 1 "/Users/nbaptist16/GitHub/_youXI/*youXI (v2).materials/Cover.png"
+
+! Placeholder variables
+
+placeholder [IFID] = "979D685B-A3D2-4950-A78D-E3BC1448F181"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2014"
+placeholder [TITLE] = "youXI"
+placeholder [AUTHOR] = "Nicole Baptist"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc400.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
